@@ -59,9 +59,6 @@ header{
     height: 600px;
     background-color: lightgrey;
     color: black;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 150px;
     background-image: url("../assets/maxresdefault.jpg");
     background-size: cover;
     background-position: center;
@@ -70,25 +67,12 @@ header{
 
 .overlay{
     width: 110%;
-    height: 450px;
-    background-color: rgba(0,0,0,0.4);
-    margin: 0 auto;
-    
-}
-
-/* .overlay{
-    width: 100%;
-    height: 600px;
-    background-color: rgba(0,0,0,0.4);
-} */
-
-/* .overlay{
-    width: 100%;
     height: 600px;
     background-color: rgba(0,0,0,0.4);
     padding-left: 10%;
-    padding-top: 100px;
-} */
+    padding-right: 10%;
+    padding-top: 150px;
+}
 
 header h3{
     font-size: 23px;
@@ -314,12 +298,11 @@ footer{
     height: 50px;
     border-radius: 50%;
     background-color: 0 auto;
-    margin: 0 auto;
     margin-bottom: 10px;
     background-image: url("../assets/youtube.svg");
     background-position: center;
     background-size: cover;
-    /* margin-left: 35%; */
+   
 }
 
 .socials2{
@@ -327,12 +310,11 @@ footer{
     height: 50px;
     border-radius: 50%;
     background-color: 0 auto;
-    margin: 0 auto;
     margin-bottom: 10px;
     background-image: url("../assets/facebook.svg");
     background-position: center;
     background-size: cover;
-    margin-left: 35%;
+    
 }
 
 .socials3{
@@ -340,12 +322,11 @@ footer{
     height: 50px;
     border-radius: 50%;
     background-color: 0 auto;
-    margin: 0 auto;
     margin-bottom: 10px;
     background-image: url("../assets/twitter.svg");
     background-position: center;
     background-size: cover;
-    margin-left: 35%;
+   
 }
 
 .socials4{
@@ -353,10 +334,9 @@ footer{
     height: 50px;
     border-radius: 50%;
     background-color: 0 auto;
-    margin: 0 auto;
     margin-bottom: 10px;
     background-image: url("../assets/instagram.svg");
     background-position: center;
     background-size: cover;
-    margin-left: 35%;
+    
 }
