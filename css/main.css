@@ -1,7 +1,7 @@
 nav{
     width: 100%;
     height: 80px;
-    background-color: grey;
+    background-color: #2b2b2b;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 20px;
@@ -43,8 +43,14 @@ nav li{
     margin-top: 10px;
 }
 
+nav li:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
 .active{
-    background-color: #2b2b2b;
+    background-color: red;
     color: white;
 }
 
@@ -56,7 +62,33 @@ header{
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 150px;
+    background-image: url("../assets/maxresdefault.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
+
+.overlay{
+    width: 110%;
+    height: 450px;
+    background-color: rgba(0,0,0,0.4);
+    margin: 0 auto;
+    
+}
+
+/* .overlay{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0,0,0,0.4);
+} */
+
+/* .overlay{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0,0,0,0.4);
+    padding-left: 10%;
+    padding-top: 100px;
+} */
 
 header h3{
     font-size: 23px;
@@ -75,9 +107,9 @@ header p{
     width: 200px;
     height: 40px;
     font-size: 15px;
-    background-color: lightgrey;
-    color: black;
-    border: 2px solid black;
+    background-color: none;
+    color: white;
+    border: 2px solid white;
     border-radius: 5px;
     text-align: center;
     padding-top: 5px;
@@ -92,7 +124,7 @@ header p{
 .col-12{
     width:100%;
     height: 80px;
-    background: grey;
+    background: #2b2b2b;
     color: white;
     text-align: center;
     padding-top: 20px;
@@ -106,7 +138,22 @@ header p{
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 30px;
+    background-image: url("../assets/hands.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 35%;
 }
+
+/* .round-image{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+} */
+
 
 .text{
     padding-right: 10%;
@@ -147,14 +194,67 @@ header p{
     border: none;
 }
 
-.round-image2{
+.round-image21{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("../assets/old_eleven.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 35%;
+}
+
+.round-image22{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("../assets/old_mike.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 35%;
+}
+
+.round-image23{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("../assets/old_dustin.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 35%;
+}
+
+.round-image24{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("../assets/zombie.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 35%;
+}
+
+/* .round-image2{
     width: 150px;
     height: 150px;
     border-radius: 50%;
     background-color: lightgrey;
     margin: 0 auto;
     margin-bottom: 10px;
-}
+} */
+
 
 .normal-bt{
     width: 200px;
@@ -202,9 +302,61 @@ header p{
 
 footer{
     width: 100%;
-    height: 100px;
+    height:180px;
     background-color: #2b2b2b;
     color: white;
     text-align: center;
     padding-top: 33px;
+}
+
+.socials1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("../assets/youtube.svg");
+    background-position: center;
+    background-size: cover;
+    /* margin-left: 35%; */
+}
+
+.socials2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("../assets/facebook.svg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 35%;
+}
+
+.socials3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("../assets/twitter.svg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 35%;
+}
+
+.socials4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("../assets/instagram.svg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 35%;
 }
