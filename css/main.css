@@ -301,11 +301,17 @@ footer{
     padding-top: 33px;
 }
 
+.social-con{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
 .socials1{
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-bottom: 10px;
+    margin-right: 5%;
     background-image: url("../assets/youtube.svg");
     background-position: center;
     background-size: cover;
@@ -317,6 +323,7 @@ footer{
     height: 50px;
     border-radius: 50%;
     margin-bottom: 10px;
+    margin-right: 5%;
     background-image: url("../assets/facebook.svg");
     background-position: center;
     background-size: cover;
@@ -328,6 +335,7 @@ footer{
     height: 50px;
     border-radius: 50%;
     margin-bottom: 10px;
+    margin-right: 5%;
     background-image: url("../assets/twitter.svg");
     background-position: center;
     background-size: cover;
